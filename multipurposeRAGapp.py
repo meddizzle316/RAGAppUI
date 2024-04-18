@@ -1,4 +1,5 @@
 from pathlib import Path
+from anthropic import Anthropic
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
